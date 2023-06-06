@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="ttyml">
+    <xs:attribute name="lang" type="x:string"/>
+    <xs:complexType>
+            <xs:sequence>
+                <xs:element name="head">
+                    <xs:complexType>
+                            <xs:element name="title" type="xs:string"></xs:element>
+                            <xs:element name="abstract" type="xs:string"></xs:element>
+                            <xs:element name="keywords" type="xs:string"></xs:element>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="body">
+
+                    <xs:group name="inlineElements">
+
+                        <xs:element name="b" type="xs:string"/>
+                        <xs:element name="i" type="xs:string"/>
+                        <xs:element name="u" type="xs:string"/>
+                        <xs:element name="f" type="xs:string"/>
+                        <xs:element name="e" type="xs:string"/>
+
+                        <xs:element name="mark" type="xs:string">
+                            <xs:attribute name="label" type="x:string"/>
+                            <xs:attribute name="look" type="x:string"/>
+                            <xs:attribute name="note" type="x:string"/>
+                            <xs:attribute name="lang" type="x:string"/>
+                        </xs:element>
+
+                        <xs:element name="ln" type="xs:string">
+                            <xs:attribute name="handle" type="x:string" />
+                            <xs:attribute name="href" type="x:string" />
+                            <xs:attribute name="lang" type="x:string"/>
+                        </xs:element>
+
+                    </xs:group>
+
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="sec" type="xs:string">
+                                <xs:attribute name="d" type="x:integer"/>
+                                <xs:attribute name="label" type="x:string"/>
+                            </xs:element>
+
+                            <xs:element name="p" type="mixed">
+                                <xs:complexType>
+                                    <xs:group ref="persongroup"/>
+                                </xs:complexType>
+                                <xs:attribute name="label" type="x:string"/>
+                            </xs:element>
+
+                            <xs:element name="ul">
+                                <xs:complexType>
+                                    <xs:element name="li" />
+                                </xs:complexType>
+                                <xs:attribute name="label" type="x:string"/>
+                            </xs:element>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
