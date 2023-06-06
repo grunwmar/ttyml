@@ -1,24 +1,40 @@
+ 
 
-	 [1m FIRST DOCUMENT [0m 
-	 ================ 
+	 [1m   F  I  R  S  T     D  O  C  U  M  E  N  T   [0m 
 
- [1m[Section 1][0m
+	 ============================================== 
 
  
-[3m
-Lorem ipsum dolor sit amet[0m, consectetuer adipiscing elit. Phasellus rhoncus. Maecenas sollicitudin. Aenean fermentum risus id [7mtortor[0m.  <[0;32mExcepteur sint occaecat[0m[[1;36m1[0m]>  cupidatat non proident, sunt in culpa qui [2m[3mofficia[0m[0m deserunt mollit anim id est laborum. Mauris dictum facilisis augue. Integer rutrum, orci vestibulum ullamcorper ultricie.
-    
+
+[1m[7m S E C T I O N   0 [0m
  
-Phasellus et lorem id. In sem justo, suscipit at,  <[0;32mpharetra vitae, orci[0m[[1;36m2[0m]> . Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Fusce aliquam vestibulum ipsum. Proin in tellus sit amet nibh dignissim sagittis. Phasellus et lorem id felis nonummy placerat.
-      
-
-	* Aenean fermentum risus id tortor. Curabitur bibendum justo non orci.
-	* Curabitur sagittis hendrerit ante.
-	* Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo.
-	* Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-
-
+Hello world
  
-        Fusce [1msuscipit[0m libero eget elit. Neque [4mporro[0m quisquam est, qui [1m[3mdolorem[0m ipsum[0m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Nullam at arcu a est sollicitudin euismod. Aliquam erat volutpat. Pellentesque pretium lectus id turpis.
-      
 
+[4;1m§ SECTION 1[0m
+ 
+
+[4;1m§§ Section 2[0m
+ 
+
+[4m§§§ Section 3[0m
+ 
+
+[4;3m§§§§ Section 4[0m
+ 
+
+[3m<§§§§§ Section 5>[0m
+ 
+ [3mLorem ipsum dolor sit amet[0m, consectetuer adipiscing elit. Phasellus rhoncus. Maecenas sollicitudin. Aenean fermentum risus id [7;7mtortor[0m. [4mExcepteur sint occaecat[0m [1m^1[0m cupidatat non proident, sunt in culpa qui [2m[3mofficia[0m[0m deserunt mollit anim id est laborum. Mauris dictum facilisis augue. Integer rutrum, orci vestibulum ullamcorper ultricie. 
+ 
+Phasellus et lorem id. In sem justo, suscipit at, [4mpharetra vitae, orci[0m [1m^2[0m. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Fusce aliquam vestibulum ipsum. Proin in tellus sit amet nibh dignissim sagittis. Phasellus et lorem id felis nonummy placerat. 
+ 
+
+ 	[1m+[0m Aenean fermentum risus id tortor. Curabitur bibendum justo non orci.
+ 	[1m+[0m Curabitur sagittis hendrerit ante.
+ 	[1m+[0m Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo.
+ 	[1m+[0m Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+ 
+ 
+Fusce [1msuscipit[0m libero eget elit. Neque [4mporro[0m quisquam est, qui [1m[3mdolorem[0m ipsum[0m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Nullam at arcu a est sollicitudin euismod. Aliquam erat volutpat. Pellentesque pretium lectus id turpis. 
+ 
