@@ -1,31 +1,41 @@
 <ttyml>
   <head>
-    <title>First document</title>
+    <title>Linux</title>
   </head>
   <body>
-    <sec d="0">Section 0</sec>
-
-    <p>Hello world</p>
-
-    <sec d="1">Section 1</sec>
-    <sec d="2">Section 2</sec>
-    <sec d="3">Section 3</sec>
-    <sec d="4">Section 4</sec>
-    <sec d="5">Section 5</sec>
+      <p>
+          <b>Linux</b> <i>(/ˈliːnʊks/ (listen) LEE-nuuks or /ˈlɪnʊks/ LIN-uuks)</i> is a family of open-source <ln handle="unixlike" href="https://en.wikipedia.org/wiki/Unix-like">Unix-like></ln> operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by <ln handle="linus" href="https://en.wikipedia.org/wiki/Linus_Torvalds">Linus Torvalds</ln>. Linux is typically packaged as a Linux distribution, which includes the kernel and supporting system software and libraries, many of which are provided by the <ln handle="gnu" href="https://en.wikipedia.org/wiki/GNU_Project">GNU Project</ln>. Many Linux distributions use the word "Linux" in their name, but the Free Software Foundation uses the name <i>"GNU/Linux"</i> to emphasize the importance of GNU software, causing some controversy.
+      </p>
+      <sec d="0">History of Linux</sec>
+        <p>
+            Linux began in 1991 as a personal project by Finnish student Linus Torvalds: <b>to create a new free operating system kernel</b>. The resulting Linux kernel has been marked by constant growth throughout its history. Since the initial release of its source code in 1991, it has grown from a small number of C files under a license prohibiting commercial distribution to the 4.15 version in 2018 with more than 23.3 million lines of source code, not counting comments, under the <i>GNU General Public License v2</i>.
+        </p>
+    <sec d="1">Precursors</sec>
     <p>
-    <i>Lorem ipsum dolor sit amet</i>, consectetuer adipiscing elit. Phasellus rhoncus. Maecenas sollicitudin. Aenean fermentum risus id <e>tortor</e>. <ln handle="1">Excepteur sint occaecat</ln> cupidatat non proident, sunt in culpa qui <f><i>officia</f></f> deserunt mollit anim id est laborum. Mauris dictum facilisis augue. Integer rutrum, orci vestibulum ullamcorper ultricie.
+        The <ln handle="unix" href="https://en.wikipedia.org/wiki/Unix">Unix</ln> operating system was conceived and implemented in 1969, at <ln handle="bells" href="https://en.wikipedia.org/wiki/Bell_Labs">AT&T's Bell Labs</ln>, in the United States by Ken Thompson, Dennis Ritchie, Douglas McIlroy, and Joe Ossanna. First released in 1971, Unix was written entirely in <ln handle="assemb" href="https://en.wikipedia.org/wiki/Assembly_language">assembl language</ln>, as was common practice at the time. In 1973, in a key pioneering approach, it was rewritten in the <ln handle="clang" href="https://en.wikipedia.org/wiki/C_(programming_language)">C programming language</ln> by Dennis Ritchie (with the exception of some hardware and I/O routines). The availability of a high-level language implementation of Unix made its porting to different computer platforms easier.
+        </p>
+    <sec d="0">Linux distributions</sec>
+    <p>
+        A Linux distribution[a] (often abbreviated as distro) is an operating system made from a software collection that includes the Linux kernel, and often a package management system. Linux users usually obtain their operating system by downloading one of the <ln handle="distro" href="https://en.wikipedia.org/wiki/Linux_distribution">Linux distributions</ln>, which are available for a wide variety of systems ranging from embedded devices (for example, OpenWrt) and personal computers (for example, Linux Mint) to powerful supercomputers (for example, Rocks Cluster Distribution).
     </p>
-    <p>
-Phasellus et lorem id. In sem justo, suscipit at, <ln handle="2">pharetra vitae, orci</ln>. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Fusce aliquam vestibulum ipsum. Proin in tellus sit amet nibh dignissim sagittis. Phasellus et lorem id felis nonummy placerat.
-      </p>
+    <sec d="1">List of Linux distributions by package manager</sec>
+    <sec d="2">RPM</sec>
     <ul>
-      <li>Aenean fermentum risus id tortor. Curabitur bibendum justo non orci.</li>
-      <li>Curabitur sagittis hendrerit ante.</li>
-      <li>Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo.</li>
-      <li>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</li>
+        <li>Red Hat Enterprise Linux</li>
+        <li>Fedora</li>
+        <li>CentOS</li>
     </ul>
-    <p>
-Fusce <b>suscipit</b> libero eget elit. Neque <u>porro</u> quisquam est, qui <b><i>dolorem</i> ipsum</b> quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Nullam at arcu a est sollicitudin euismod. Aliquam erat volutpat. Pellentesque pretium lectus id turpis.
-      </p>
+    <sec d="2">APT</sec>
+    <ul>
+        <li>Debian</li>
+        <li>Ubuntu</li>
+        <li>Kali Linux</li>
+        <li>Raspbian</li>
+    </ul>
+    <sec d="2">Pacman</sec>
+    <ul>
+        <li>Arch Linux</li>
+        <li>Manjaro</li>
+    </ul>
   </body>
 </ttyml>

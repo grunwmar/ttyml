@@ -5,12 +5,12 @@ import json
 
 
 APPEARANCE = {
-    "link": "4",
-    "link-handle": "1",
+    "link": "4;34",
+    "link-handle": "32",
     "section-bullet": "§",
     "emphasis": "7",
     "ulist-bullet-char": "+",
-    "ulist-bullet": "1"
+    "ulist-bullet": "32"
     }
 
 
@@ -45,13 +45,11 @@ def load_ttyml(filename):
                 "e": f"7;{APPEARANCE['emphasis']}",
             }
 
-
         for tag, code in subst.items():
             for elm in soup.find_all(tag):
                 elm.insert_before(f"\033[{code}m")
                 elm.insert_after("\033[0m")
                 elm.unwrap()
-
 
         for elm in soup.find_all("ul"):
             for elm_li in elm.find_all("li"):
@@ -62,12 +60,10 @@ def load_ttyml(filename):
             elm.insert_after("\n")
             elm.unwrap()
 
-
         for elm in soup.find_all("p"):
             elm.insert_before("\n")
             elm.insert_after("\n")
             elm.unwrap()
-
 
         for elm in soup.find_all("title"):
             text = f" {elm.string.upper()} "
@@ -78,7 +74,6 @@ def load_ttyml(filename):
             elm.insert_before("\n\n")
             elm.insert_after("\n\n")
             elm.unwrap()
-
 
         for elm in soup.find_all("sec"):
             depth = int(elm["d"])
@@ -92,32 +87,25 @@ def load_ttyml(filename):
                 text = elm.string.upper()
                 elm.string = f"\033[4;1m{pref} {text}\033[0m"
 
-
             elif depth == 2:
                 text = elm.string
                 elm.string = f"\033[4;1m{pref} {text}\033[0m"
-
 
             elif depth == 3:
                 text = elm.string
                 elm.string = f"\033[4m{pref} {text}\033[0m"
 
-
             elif depth == 4:
                 text = elm.string
                 elm.string = f"\033[4;3m{pref} {text}\033[0m"
-
 
             else:
                 text = elm.string
                 elm.string = f"\033[3m<{pref} {text}>\033[0m"
 
-
-
             elm.insert_before("\n\n")
             elm.insert_after("\n")
             elm.unwrap()
-
 
         for elm in soup.find_all("ln"):
             elm.insert_before(f"\033[{APPEARANCE['link']}m")
@@ -131,13 +119,11 @@ def load_ttyml(filename):
             elm.insert_after(f"\033[0m \033[{APPEARANCE['link-handle']}m^{handle}\033[0m")
             elm.unwrap()
 
-
         for elm in soup.find_all("mark"):
             val = elm["color"]
             elm.insert_before(f"\033[{val}m")
             elm.insert_after(f"\033[0m")
             elm.unwrap()
-            
 
         for tag in ["html", "body", "head", "ttyml"]:
             for elm in soup.find_all(tag):
@@ -151,8 +137,24 @@ def load_ttyml(filename):
             line = line.strip()
 
         string = "\n".join(split_lines)
-        
+
+
+        string = string.replace("\n\n", "\n")
+
         print(string)
+
+        filename, _ = os.path.splitext(filename)
+
+        directory = os.path.join(f"export", f"{filename}.d")
+        filename = os.path.join(directory, filename)
+        
+        try:
+            os.makedirs(directory)
+        except Exception as e:
+            print(e.__dict__)
+
+        with open(f"{filename}.txt", "w") as f:
+            f.write(string)
 
         with open(f"{filename}.json", "w") as f:
             json.dump(LINKS, f, ensure_ascii=False, indent=4)

@@ -1,0 +1,34 @@
+{
+    "unixlike": [
+        "https://en.wikipedia.org/wiki/Unix-like",
+        "Unix-like>"
+    ],
+    "linus": [
+        "https://en.wikipedia.org/wiki/Linus_Torvalds",
+        "Linus Torvalds"
+    ],
+    "gnu": [
+        "https://en.wikipedia.org/wiki/GNU_Project",
+        "GNU Project"
+    ],
+    "unix": [
+        "https://en.wikipedia.org/wiki/Unix",
+        "Unix"
+    ],
+    "bells": [
+        "https://en.wikipedia.org/wiki/Bell_Labs",
+        "AT&T's Bell Labs"
+    ],
+    "assemb": [
+        "https://en.wikipedia.org/wiki/Assembly_language",
+        "assembl language"
+    ],
+    "clang": [
+        "https://en.wikipedia.org/wiki/C_(programming_language)",
+        "C programming language"
+    ],
+    "distro": [
+        "https://en.wikipedia.org/wiki/Linux_distribution",
+        "Linux distributions"
+    ]
+}
