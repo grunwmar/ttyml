@@ -1,11 +1,7 @@
 {
     "unixlike": [
         "https://en.wikipedia.org/wiki/Unix-like",
-        "Unix-like>"
-    ],
-    "linus": [
-        "https://en.wikipedia.org/wiki/Linus_Torvalds",
-        "Linus Torvalds"
+        "Unix-like"
     ],
     "gnu": [
         "https://en.wikipedia.org/wiki/GNU_Project",

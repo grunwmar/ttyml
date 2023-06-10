@@ -1,0 +1,41 @@
+ 
+	 [1m   L  I  N  U  X   [0m 
+	 =================== 
+ 
+ [1mLinux[0m [3m(/ˈliːnʊks/ (listen) LEE-nuuks or /ˈlɪnʊks/ LIN-uuks)[0m is a family of open-source [34;3m<Unix-like> [0m[35m#unixlike[0m operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by <ln handle="linus" href="https://en.wikipedia.org/wiki/Linus_Torvalds">Linus Torvalds. Linux is typically packaged as a Linux distribution, which includes the kernel and supporting system software and libraries, many of which are provided by the [34;3m<GNU Project> [0m[35m#gnu[0m. Many Linux distributions use the word "Linux" in their name, but the Free Software Foundation uses the name [3m"GNU/Linux"[0m to emphasize the importance of GNU software, causing some controversy. </ln>
+ 
+[1;4mH I S T O R Y   O F   L I N U X[0m
+ 
+ Linux began in 1991 as a personal project by Finnish student Linus Torvalds: [1mto create a new free operating system kernel[0m. The resulting Linux kernel has been marked by constant growth throughout its history. Since the initial release of its source code in 1991, it has grown from a small number of C files under a license prohibiting commercial distribution to the 4.15 version in 2018 with more than 23.3 million lines of source code, not counting comments, under the [3mGNU General Public License v2[0m. 
+ 
+[4;1m§ PRECURSORS[0m
+ 
+ The [34;3m<Unix> [0m[35m#unix[0m operating system was conceived and implemented in 1969, at [34;3m<AT&amp;T's Bell Labs> [0m[35m#bells[0m, in the United States by Ken Thompson, Dennis Ritchie, Douglas McIlroy, and Joe Ossanna. First released in 1971, Unix was written entirely in [34;3m<assembl language> [0m[35m#assemb[0m, as was common practice at the time. In 1973, in a key pioneering approach, it was rewritten in the [34;3m<C programming language> [0m[35m#clang[0m by Dennis Ritchie (with the exception of some hardware and I/O routines). The availability of a high-level language implementation of Unix made its porting to different computer platforms easier. 
+ 
+[1;4mL I N U X   D I S T R I B U T I O N S[0m
+ 
+ A Linux distribution[a] (often abbreviated as distro) is an operating system made from a software collection that includes the Linux kernel, and often a package management system. Linux users usually obtain their operating system by downloading one of the [34;3m<Linux distributions> [0m[35m#distro[0m, which are available for a wide variety of systems ranging from embedded devices (for example, OpenWrt) and personal computers (for example, Linux Mint) to powerful supercomputers (for example, Rocks Cluster Distribution). 
+ 
+[4;1m§ LIST OF LINUX DISTRIBUTIONS BY PACKAGE MANAGER[0m
+ 
+[4;1m§§ RPM[0m
+ 
+ 	[32m*[0m Red Hat Enterprise Linux
+ 	[32m*[0m Fedora
+ 	[32m*[0m CentOS
+ 
+ 
+[4;1m§§ APT[0m
+ 
+ 	[32m*[0m Debian
+ 	[32m*[0m Ubuntu
+ 	[32m*[0m Kali Linux
+ 	[32m*[0m Raspbian
+ 
+ 
+[4;1m§§ Pacman[0m
+ 
+ 	[32m*[0m Arch Linux
+ 	[32m*[0m Manjaro
+ 
+ 
